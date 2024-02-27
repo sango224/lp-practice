@@ -1,1 +1,138 @@
 @charset "utf-8";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.fa-3x {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 150px;
+  color: #777;
+}
+.content-box {
+  text-align: right;
+}
+.content {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 12px 14px;
+  background-color: #6ba7ed;
+}
+.keyvisual {
+  background-image: url(../img/keyvisual/keyvisual.jpg);
+}
+.page-title {
+  font-size: 65px;
+  font-weight: 700;
+  color: #6ba7eb;
+  padding-top: 400px;
+}
+.home-content p {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 30px 0px 400px;
+}
+.home-content {
+  text-align: center;
+}
+.container {
+  background-color: #e3f2fd;
+  display: flex;
+}
+.work-taitle {
+  font-size: 40px;
+  letter-spacing: 10px;
+  margin: 20px 35px;
+}
+.work-text {
+  font-size: 15px;
+  line-height: 18px;
+  word-break: break-all;
+  font-weight: normal;
+}
+img {
+  width: 150px;
+  margin-top: 50px;
+}
+.skills-taitle {
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 10px;
+  margin-top: 50px;
+}
+.skills-content {
+  background: #fff;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(2, 300px);
+  column-gap: 100px;
+  row-gap: 100px;
+  justify-content: center;
+}
+.plan {
+  background: #d0dfea;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.plan-taitle {
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 10px;
+  margin-bottom: 50px;
+}
+table {
+  border-collapse: collapse;
+  margin: auto;
+  width: 1100px;
+  table-layout: fixed;
+}
+td,
+th {
+  padding: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  border-left: 2px solid #fff;
+  text-align: center;
+}
+thead {
+  background: #6ba7eb;
+}
+tbody tr:nth-child(n) {
+  background: #f9f9f9;
+}
+tbody tr:nth-child(2n) {
+  background: #e0efff;
+}
+.sns {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background: #e3f2fd;
+  text-align: center;
+}
+.sns-icon {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.sns-icon li {
+  width: 185px;
+  color: #8c8c8c;
+  overflow: hidden;
+  font-size: 40px;
+}
+.footer {
+  background: #cfd8dc;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-right: 110px;
+  text-align: right;
+}
+.copyright {
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+}
