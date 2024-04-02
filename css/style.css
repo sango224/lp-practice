@@ -17,6 +17,44 @@
   padding: 12px 14px;
   background-color: #6ba7ed;
 }
+.content {
+  transition: color 0.3s ease;
+}
+.content:hover {
+  color: #333;
+}
+@media (max-width: 767px) {
+  .menu-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    background-color: #3584bb;
+  }
+}
+
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 25px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  position: absolute;
+}
+.menu-btn span:before {
+  bottom: 8px;
+}
+.menu-btn span:after {
+  top: 8px;
+}
 .keyvisual {
   background-image: url(../img/keyvisual/keyvisual.jpg);
 }
@@ -26,6 +64,11 @@
   color: #6ba7eb;
   padding-top: 400px;
 }
+@media (max-width: 767px) {
+  .page-title {
+    font-size: 40px;
+  }
+}
 .home-content p {
   font-size: 40px;
   font-weight: 700;
@@ -34,6 +77,11 @@
 }
 .home-content {
   text-align: center;
+}
+@media (max-width: 767px) {
+  .home-content p {
+    font-size: 30px;
+  }
 }
 .work {
   background-color: #e3f2fd;
@@ -86,6 +134,17 @@ img {
 .skills-content img {
   height: 300px;
   width: 300px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+.skills-content img:hover {
+  opacity: 1;
+}
+@media (max-width: 767px) {
+  .skills-content {
+    display: block;
+    margin-right: 0;
+  }
 }
 .plan {
   background: #d0dfea;
@@ -124,6 +183,17 @@ tbody tr:nth-child(n) {
 tbody tr:nth-child(2n) {
   background: #e0efff;
 }
+@media (max-width: 767px) {
+  .th {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 767px) {
+  .tb {
+    font-size: 12px;
+  }
+}
 .sns {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -139,6 +209,15 @@ tbody tr:nth-child(2n) {
   color: #8c8c8c;
   overflow: hidden;
   font-size: 40px;
+  transition: background-color 0.5s ease;
+}
+.sns-icon:hover {
+  background-color: #fff;
+}
+@media (max-width: 767px) {
+  .sns-icon li {
+    width: 100%;
+  }
 }
 .footer {
   background: #cfd8dc;
